@@ -17,7 +17,7 @@ int main() {
   	cout<<"A. Ayam Goreng : Rp. 17000 "<<endl;  
   	cout<<"B. Ayam Bakar  : Rp. 21000 "<<endl;  
  
-	   cout<<"Pesan Ayam Goreng ?(y/t) ";
+	  cout<<"Pesan Ayam Goreng ?(y/t) ";
 	  cin>>a;
 	
 	if (a=='y') {
@@ -58,12 +58,12 @@ int main() {
 	 cout<<"Total Harga    : "<<biaya<<endl;
    
    cout<<"-------------------------"<<endl;  
- 	 cout<<"  WARUNG AYAM   "<<endl;  
+   cout<<"  WARUNG AYAM   "<<endl;  
    cout<<"-------------------------"<<endl<<endl;  
    
    cout<<"RINCIAN PEMBAYARAN:   "<<endl;  
    cout<<"1. Ayam Goreng : "<<goreng*17000<<endl;
-	 cout<<"2. Ayam Bakar  : "<<bakar*21000<<endl;  
+   cout<<"2. Ayam Bakar  : "<<bakar*21000<<endl;  
    cout<<"         ------------ x"<<endl;  
    cout<<"Biaya      = "<<biaya<<endl;  
    cout<<"Diskon 10%    = "<<diskon<<endl;  
@@ -73,9 +73,9 @@ int main() {
    cout<<"         --------------"<<endl;  
    cout<<"Uang Kembalian  = "<<kembalian<<endl; 
 	
-	 myFile<<"Nota Pembayaran:   "<<endl;  
+   myFile<<"Nota Pembayaran:   "<<endl;  
    myFile<<"1. Ayam Goreng : "<<goreng*17000<<endl;
-	 myFile<<"2. Ayam Bakar  : "<<bakar*21000<<endl;  
+   myFile<<"2. Ayam Bakar  : "<<bakar*21000<<endl;  
    myFile<<"         ------------ x"<<endl;  
    myFile<<"Biaya         = "<<biaya<<endl;  
    myFile<<"Diskon 10%    = "<<diskon<<endl;  
